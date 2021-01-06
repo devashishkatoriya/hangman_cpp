@@ -61,6 +61,7 @@ bool complete(const string word)
 			cout<<"Enter next guess: ";
 			cin>>user;
 
+			// To keep track of whether user input was correct
 			bool changed = false;
 
 			for (int i=0; i<word.length(); i++)
