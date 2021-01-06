@@ -99,13 +99,9 @@ bool complete(const string word)
 		cout<<"\nWould you like to continue to next word (y/n) ? ";
 		cin>>ch;
 		if (ch == 'Y' || ch == 'y')
-		{
 			continue;
-		}
 		else
-		{
 			break;
-		}
 	}
 	cout<<"\nThank you for playing this game."<<endl;
 	return 0;
